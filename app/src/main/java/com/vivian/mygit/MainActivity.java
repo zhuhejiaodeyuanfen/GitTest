@@ -1,9 +1,7 @@
 package com.vivian.mygit;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import junit.framework.Test;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
