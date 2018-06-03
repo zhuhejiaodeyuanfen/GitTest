@@ -3,6 +3,8 @@ package com.vivian.mygit;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import junit.framework.Test;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -10,5 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         System.out.println("我测试一下 ,协议系东西");
+        System.out.println("我是王亚军 我也要修改东西");
+        new TestA();
+        new TestB();
     }
 }
